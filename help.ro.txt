@@ -1,0 +1,8 @@
+Utilizare: nod diskhog [argumente]
+-p, --path value, numele relativ sau absolut al căii unui fișier sau director. Valoarea implicită este -p.
+-s, --sort alfa | dimensiune | implicit nu sortează lista
+  alfa sortează alfabetic (crescător)
+  mărime sortează după mărime (descrescătoare) - implicit atunci când este utilizat fără argumente suplimentare
+-m, - dimensiuni metrice afișate ca KB, MB, GB și TB în loc de multipli de 4.096 octeți.
+-t, --threshold afișează orice fișier sau folder cu dimensiunea care îndeplinește pragul. Dimensiunea trebuie specificată în milioane de octeți. Valoarea implicită este -t ​​0.
+-h, --help tipărește acest ecran de utilizare. Ignoră toate celelalte argumente.

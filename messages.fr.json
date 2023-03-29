@@ -1,0 +1,48 @@
+{
+  "path": {
+    "plural": "Erreur d'argument: l'argument -p --path doit être singulier",
+    "cap": "Erreur de majuscule: l'argument -p --path doit être entièrement en minuscules",
+    "symbol": "Symbol Error: -p --path [pathName] pathName doit être au format du répertoire dans lequel démarrer, pas d'un symbole",
+    "argument": "Erreur d'argument: path doit être au format -p --path [pathName]",
+    "multiple": "Erreur d'argument: --path ne doit pas avoir plus d'un répertoire pour démarrer"
+  },
+  "sort": {
+    "plural": "Erreur d'argument: l'argument -s --sort doit être singulier",
+    "cap": "Erreur de majuscule: l'argument -s --sort doit être entièrement en minuscules",
+    "type": "Erreur de symbole: -s --sort [type] le type doit être alpha ou size si vous utilisez un type de tri explicite",
+    "argument": "Erreur d'argument: sort doit être au format -s or --sort",
+    "multiple": "Erreur d'argument: -s --sort [type] ne doit avoir qu'un seul type pour trier à partir de la taille OR alpha"
+  },
+  "metric": {
+    "plural": "Erreur d'argument: l'argument -m --metric doit être singulier",
+    "cap": "Erreur de majuscule: l'argument -m --metric doit être entièrement en minuscules",
+    "argument": "Erreur d'argument: -m --metric n'accepte pas les arguments, n'utilise que -m or --metric"
+  },
+  "threshold": {
+    "plural": "Erreur d'argument: l'argument -t --threshold doit être singulier",
+    "cap": "Erreur de majuscule: l'argument -t --threshold doit être entièrement en minuscules",
+    "symbol": "Erreur de symbole: -t --threshold [thresholdVal] le type doit être un entier positif",
+    "argument": "Erreur de format: threshold command doit être au format -t or --threshold",
+    "multiple": "Erreur d'argument: -t --threshold [thresholdVal] ne doit avoir qu'une seule valeur seuil au lieu de plusieurs"
+  },
+  "language": {
+    "plural": "Erreur d'argument: l'argument -l --lang doit être singulier",
+    "cap": "Erreur de majuscule: l'argument -l --lang doit être entièrement en minuscules",
+    "type": "Erreur de symbole: -l --lang [languageCode] type should be either en (English), de (German), fr (French), or ro (Romanian)",
+    "format": "Erreur de format: lang command doit être au format -l or --lang",
+    "multiple": "Erreur d'argument: -l --lang [languageCode] ne doit avoir qu'une seule valeur de code de langue"
+  },
+  "help": "help Me",
+  "help1": {
+    "plural": "Erreur d'argument: l'argument -h --help doit être singulier",
+    "cap": "Erreur de majuscule: l'argument -h --help doit être entièrement en minuscules",
+    "format": "Erreur de format: help command doit être au format -h or --help",
+    "argument": "Erreur d'argument: -h --help n'a pas d'arguments supplémentaires"
+  },
+  "first": {
+    "plural": "Erreur d'argument: l'argument -f --first doit être singulier",
+    "cap": "Erreur de majuscule: -f - first doit être entièrement en minuscules",
+    "format": "Erreur de format: first command doit être au format -f or --first",
+    "argument": "Erreur d'argument: -f --first [filesOrDirs] n'a qu'un seul argument, veuillez utiliser files ou dirs"
+  }
+}

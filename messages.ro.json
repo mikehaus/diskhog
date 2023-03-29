@@ -1,0 +1,49 @@
+{
+  "path": {
+    "plural": "Eroare argument: argumentul -p --path ar trebui să fie singular",
+    "cap": "Eroare argument: argumentul -p --path ar trebui să fie cu minuscule",
+    "symbol": "Eroare simbol: -p --path [pathName] pathName ar trebui să fie în formatul directorului de pornire, nu un simbol",
+    "argument": "Eroare argument: calea ar trebui să fie în format -p --path [pathName]",
+    "multiple": "Eroare argument: --path nu ar trebui să aibă mai mult de un director pentru a începe",
+    "dir": "Eroare cale: calea nume nu este cale validă"
+  },
+  "sort": {
+    "plural": "Eroare argument: -s - argumentul ar trebui să fie singular",
+    "cap": "Eroare argument: -s - argumentul ar trebui să fie tot cu litere mici",
+    "type": "Eroare simbol: -s --sort [type] type ar trebui să fie alfa sau size dacă se utilizează un tip de sortare explicit",
+    "format": "Eroare argument: sortarea trebuie să fie în format -s sau --sort",
+    "multiple": "Eroare argument: -s --sort [type] ar trebui să aibă un singur tip pentru a sorta de la alpha SAU size"
+  },
+  "metric": {
+    "plural": "Eroare argument: -m - argumentul metric ar trebui să fie singular",
+    "cap": "Eroare argument: -m - argumentul metric ar trebui să fie cu minuscule",
+    "format": "Eroare de format: metrica ar trebui să aibă forma -m --metric",
+    "argument": "Eroare argument: -m --metric nu acceptă argumente, utilizați doar -m sau --metric"
+  },
+  "threshold": {
+    "plural": "Eroare argument: -t - argumentul prag trebuie să fie singular",
+    "cap": "Eroare argument: -t - argumentul prag trebuie să fie cu minuscule",
+    "number": "Eroare simbol: -t --threshold [thresholdVal] ar trebui să fie un număr întreg pozitiv",
+    "format": "Eroare la format: comanda prag trebuie să fie în format -t sau --threshold",
+    "multiple": "Eroare argument: -t --threshold [thresholdVal] ar trebui să aibă o singură valoare de prag în loc de multiple"
+  },
+  "language": {
+    "plural": "Eroare argument: argumentul -l --lang ar trebui să fie singular",
+    "cap": "Eroare argument: argumentul -l --lang ar trebui să fie cu minuscule",
+    "type": "Symbol Error: -l --lang [languageCode] type should be fie en (engleză), de (germană), fr (franceză), sau ro (română)",
+    "format": "Eroare de format: comanda lang trebuie să fie în format -l sau --lang",
+    "multiple": "Eroare argument: -l --lang [languageCode] ar trebui să aibă o singură valoare de cod de limbă"
+  },
+  "help": {
+    "plural": "Eroare plurală: -h - argumentul de ajutor ar trebui să fie singular",
+    "cap": "Eroare cu majuscule: -h - argumentul ar trebui să fie minuscule",
+    "format": "Eroare la format: comanda de ajutor ar trebui să fie în format -h sau --help",
+    "argument": "Eroare argument: -h --help nu are argumente suplimentare"
+  },
+  "first": {
+    "plural": "Eroare plurală: -f --first [filesOrDirs] ar trebui să fie singular",
+    "cap": "Eroare cu majuscule: -f --primul argument ar trebui să fie cu minuscule",
+    "format": "Eroare la format: prima comandă trebuie să fie în format -f sau --first",
+    "argument": "Eroare argument: -f --first [filesOrDirs] are doar 1 argument, vă rugăm să utilizați files sau dirs"
+  }
+}

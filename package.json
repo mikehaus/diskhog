@@ -1,0 +1,32 @@
+{
+  "name": "diskhog",
+  "version": "1.0.0",
+  "description": "diskhog project 3380",
+  "main": "index.js",
+  "jest": {
+    "verbose": true
+  },
+  "scripts": {
+    "diskHog": "index.js",
+    "test": "jest index.test.js"
+  },
+  "author": "Mike Hollingshaus",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.1.0",
+    "filesize": "^6.1.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "diskhog"
+  ],
+  "bin": {
+    "diskHog": "./index.js"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

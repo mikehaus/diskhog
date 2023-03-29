@@ -1,0 +1,8 @@
+Verwendung: Node Diskhog [Argumente]
+-p, --path value, der relative oder absolute Pfadname einer Datei oder eines Verzeichnisses. Standard ist -p.
+-s, --sort alpha | Größe | Standard sortiert Liste nicht
+  Alpha sortiert alphabetisch (aufsteigend)
+  Größe sortiert nach Größe (absteigend) - Standard, wenn keine zusätzlichen Argumente verwendet werden
+-m, --metrische Größen werden als KB, MB, GB und TB anstelle von Vielfachen von 4.096 Byte angezeigt.
+-t, --threshold zeigt alle Dateien oder Ordner mit einer Größe an, die den Schwellenwert erfüllt. Die Größe sollte in Millionen Bytes angegeben werden. Standard ist -t 0.
+-h, --help druckt diesen Verwendungsbildschirm. Ignoriert alle anderen Argumente.

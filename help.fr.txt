@@ -1,0 +1,8 @@
+Utilisation: node diskhog [arguments]
+-p, --path value, le nom de chemin relatif ou absolu d'un fichier ou d'un répertoire. La valeur par défaut est -p.
+-s, --sort alpha | taille | la valeur par défaut ne trie pas la liste
+  alpha trie par ordre alphabétique (croissant)
+  taille triée par taille (décroissante) - par défaut lorsqu'elle est utilisée sans argument supplémentaire
+-m, - tailles métriques affichées en Ko, Mo, Go et To au lieu de multiples de 4096 octets.
+-t, --threshold affiche tout fichier ou dossier dont la taille atteint le seuil. La taille doit être spécifiée en millions d'octets. La valeur par défaut est -t 0.
+-h, --help imprime cet écran d'utilisation. Ignore tous les autres arguments.

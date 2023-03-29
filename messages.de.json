@@ -1,0 +1,49 @@
+{
+  "path": {
+    "plural": "Pluraler Fehler: -p --path Argument sollte singulär sein",
+    "cap": "Argument Fehler: -p --path Argument sollte nur in Kleinbuchstaben geschrieben werden",
+    "symbol": "Symbol Fehler: -p --path [PathName] PathName sollte das Format des Verzeichnisses haben, in dem begonnen werden soll, kein Symbol.",
+    "argument": "Argument Fehler: path sollte im Format von sein -p --path [pathName]",
+    "multiple": "Argument Fehler: --path sollte nicht mehr als ein Verzeichnis zum Starten haben",
+    "dir": "Pfadfehler: Pfadname ungültiger Pfad"
+  },
+  "sort": {
+    "plural": "Pluraler Fehler: -s --sort rgument sollte singulär sein",
+    "cap": "Argument Fehler: -s --sort Argument sollte nur in Kleinbuchstaben geschrieben werden",
+    "type": "Argument Fehler: -s --sort [type] type sollte entweder alpha oder size sein, wenn ein expliziter Sortiertyp verwendet wird",
+    "format": "Argument Fehler: sort sollte im Format von sein -s oder --sort",
+    "multiple": "Argument Fehler: -s --sort [type] sollte nur einen Typ zum Sortieren haben alpha ODER size"
+  },
+  "metric": {
+    "plural": "Pluraler Fehler: -m --metric Argument sollte singulär sein",
+    "cap": "Argument Fehler: -m --metric Argument sollte nur in Kleinbuchstaben geschrieben werden",
+    "format": "Format Fehler: metric sollte im Format von sein -m --metric",
+    "argument": "Argument Fehler: -m --metric akzeptiert keine Argumente, sondern nur -m oder --metric"
+  },
+  "threshold": {
+    "plural": "Pluraler Fehler: -t --threshold Argument sollte singulär sein",
+    "cap": "Argument Fehler: -t --threshold Argument sollte nur in Kleinbuchstaben geschrieben werden",
+    "number": "Symbol Fehler: -t --threshold [thresholdVal] Typ sollte eine positive ganze Zahl sein",
+    "format": "Format Fehler: threshold command sollte im Format von sein -t or --threshold",
+    "multiple": "Argument Fehler: -t --threshold [thresholdVal] sollte nur einen Schwellenwert anstelle mehrerer haben"
+  },
+  "language": {
+    "plural": "Argument Fehler: -l --lang Argument sollte singulär sein",
+    "cap": "Argument Fehler: -l --lang Argument sollte nur in Kleinbuchstaben geschrieben werden",
+    "type": "Symbol Fehler: -l --lang [languageCode] Typ sollte entweder en (Englisch), de (Deutsch), fr (Französisch) oder ro (Rumänisch) sein",
+    "format": "Format Fehler: lang Befehl sollte im Format von sein -l oder --lang",
+    "multiple": "Argument Fehler: -l --lang [languageCode] sollte nur einen Sprachcodewert haben"
+  },
+  "help": {
+    "plural": "Pluraler Fehler: -h --help Argument sollte singulär sein",
+    "cap": "Capitalization Fehler: -h --help Argument sollte nur in Kleinbuchstaben geschrieben werden",
+    "format": "Format Fehler: help Befehl sollte im Format von sein -h oder --help",
+    "argument": "Argument Fehler: -h --help hat keine zusätzlichen Argumente"
+  },
+  "first": {
+    "plural": "Pluraler Fehler: -f --first [filesOrDirs] Argument sollte singulär sein",
+    "cap": "Capitalization Fehler: -f --first Argument sollte nur in Kleinbuchstaben geschrieben werden",
+    "format": "Format Fehler: first Befehl sollte im Format von sein -f oder --first",
+    "argument": "Argument Fehler: -f --first [filesOrDirs] hat nur 1 Argument, bitte verwenden files oder dirs"
+  }
+}

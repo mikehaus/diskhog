@@ -1,0 +1,49 @@
+{
+  "path": {
+    "plural": "Argument Error: -p --path argument should be singular",
+    "cap": "Argument Error: -p --path argument should be all lowercase",
+    "symbol": "Symbol Error: -p --path [pathName] pathName should be in the format of directory to start in, not a symbol",
+    "argument": "Argument Error: path should be in format of -p --path [pathName]",
+    "multiple": "Argument Error: --path should not have more than one directory to start",
+    "dir": "Path Error: path name not valid path"
+  },
+  "sort": {
+    "plural": "Argument Error: -s --sort argument should be singular",
+    "cap": "Argument Error: -s --sort argument should be all lowercase",
+    "type": "Symbol Error: -s --sort [type] type should be either alpha or size if using explicit sort type",
+    "format": "Argument Error: sort should be in format of -s or --sort",
+    "multiple": "Argument Error: -s --sort [type] should only have one type to sort from alpha OR size"
+  },
+  "metric": {
+    "plural": "Argument Error: -m --metric argument should be singular",
+    "cap": "Argument Error: -m --metric argument should be all lowercase",
+    "format": "Format Error: metric should be in the form of -m --metric",
+    "argument": "Argument Error: -m --metric does not accept arguments, only use -m or --metric"
+  },
+  "threshold": {
+    "plural": "Argument Error: -t --threshold argument should be singular",
+    "cap": "Argument Error: -t --threshold argument should be all lowercase",
+    "number": "Symbol Error: -t --threshold [thresholdVal] type should be a positive integer",
+    "format": "Format Error: threshold command be in format of -t or --threshold",
+    "multiple": "Argument Error: -t --threshold [thresholdVal] should only have one threshold value instead of multiple"
+  },
+  "language": {
+    "plural": "Argument Error: -l --lang argument should be singular",
+    "cap": "Argument Error: -l --lang argument should be all lowercase",
+    "type": "Symbol Error: -l --lang [languageCode] type should be either en (English), de (German), fr (French), or ro (Romanian)",
+    "format": "Format Error: lang command should be in format of -l or --lang",
+    "multiple": "Argument Error: -l --lang [languageCode] should only have one language code value"
+  },
+  "help": {
+    "plural": "Plural Error: -h --help argument should be singular",
+    "cap": "Capitalization Error: -h --help argument should be all lowercase",
+    "format": "Format Error: help command should be in format of -h or --help",
+    "argument": "Argument Error: -h --help has no additional arguments"
+  },
+  "first": {
+    "plural": "Plural Error: -f --first [filesOrDirs] should be singular",
+    "cap": "Capitalization Error: -f --first argument should be all lowercase",
+    "format": "Format Error: first command should be in format of -f or --first",
+    "argument": "Argument Error: -f --first [filesOrDirs] has only 1 argument, please use files or dirs"
+  }
+}

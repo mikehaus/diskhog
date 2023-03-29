@@ -1,0 +1,8 @@
+Usage: node diskhog [arguments]
+-p, --path value, the relative or absolute path name of a file or directory. Default is -p .
+-s, --sort alpha | size | default does not sort list
+  alpha sorts alphabetically (ascending)
+  size sorts by size (descending) - default when used with no additional arguments
+-m, --metric sizes displayed as KB, MB, GB, and TB instead of multiples of 4,096 bytes.
+-t, --threshold displays any file or folder with size that meets the threshold. Size should be specified in million bytes. Default is -t 0.
+-h, --help prints this usage screen. Ignores all other arguments.
